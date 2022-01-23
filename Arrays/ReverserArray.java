@@ -2,13 +2,10 @@ package Arrays;
 
 public class ReverserArray {
 
-    public static void ran() {
+    public static void run() {
         // initializing array
-        int[] arr = new int[10];
 
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = i * i;
-        }
+        int[] arr = Array.intArray(20);
 
         // Two pointer reverse
         int s = 0;
