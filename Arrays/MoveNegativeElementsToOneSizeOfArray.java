@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class MoveNegativeElementsToOneSizeOfArray {
 
+    // update approach
     public static void runTwoPointer() {
 
         int[] arr = Array.negPosArray;
